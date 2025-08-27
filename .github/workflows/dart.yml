@@ -41,7 +41,7 @@ jobs:
 
       # Build a single release APK (universal)
       - name: Build single release APK
-        run: flutter build apk --release --no-split-per-abi
+        run: flutter build apk --release
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
